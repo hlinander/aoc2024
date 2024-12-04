@@ -3,6 +3,7 @@ use std::io::{self, Read};
 pub mod d1;
 pub mod d2;
 pub mod d3;
+pub mod d4;
 
 fn load_data(path: &str) -> io::Result<String> {
     let mut file = std::fs::File::open(path)?;
@@ -19,4 +20,6 @@ fn main() {
     d2::day2();
     println!("Day3");
     d3::day3();
+    println!("Day4");
+    d4::day4();
 }
