@@ -26,6 +26,7 @@
           git
           rustToolchain
           rust-analyzer
+          linuxPackages_latest.perf
         ];
       in {
         devShells.default = pkgs.mkShell { nativeBuildInputs = nativeInputs; };

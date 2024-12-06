@@ -5,6 +5,7 @@ pub mod d2;
 pub mod d3;
 pub mod d4;
 pub mod d5;
+pub mod d6;
 
 fn load_data(path: &str) -> io::Result<String> {
     let mut file = std::fs::File::open(path)?;
@@ -25,4 +26,6 @@ fn main() {
     d4::day4();
     println!("Day5");
     d5::day5();
+    println!("Day6");
+    d6::day6();
 }
