@@ -1,6 +1,7 @@
 use std::io::{self, Read};
 
 pub mod d1;
+pub mod d10;
 pub mod d2;
 pub mod d3;
 pub mod d4;
@@ -37,4 +38,6 @@ fn main() {
     d8::day8();
     println!("Day9");
     d9::day9();
+    println!("Day10");
+    d10::day10();
 }
